@@ -1,0 +1,339 @@
+<head> 
+	<title> Hickory Tech Solutions </title>
+
+	<script src="../HTS BS/vendor/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="../HTS BS/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="../HTS BS/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../HTS BS/vendor/bootstrap/css/body.css">
+	<link rel="stylesheet" href="../HTS BS/vendor/bootstrap/css/headfoot.css">
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+		<meta name="author" content="Jordon Meredith">
+		<meta name="keywords" content="Jordon Meredith, Jordon, Meredith, Hickory Web Designs, Web Designs, Hickory Tech Solutions, Hickory Technology Solutions, Technology, Computer help, computer training,Office Training, Del 		Rio, Texas, Southern Texas, Laughlin AFB">
+		<meta name="description" content="Hickory Tech Solutions">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" /> 
+</head>
+
+<body>
+
+<!--__________________________________________________________NAVIGATION___________________________________________________________--->
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  			<a class="navbar-brand" href="index.html"><img src="../img/HickoryBlackClear.png" width="80px" height="80px"> </a>
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    				<span class="navbar-toggler-icon"></span>
+  			</button>
+
+  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+     
+    		<ul class="navbar-nav mr-auto">
+
+
+		<li class="nav-item">
+			<a class="nav-link" href="../index.html"> Home <span class="sr-only">(current)</span></a>
+		</li>
+
+
+			 <li class="nav-item dropdown active">
+        			<a class="nav-link dropdown-toggle" href="../solutions.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          				Solutions </a>
+        			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					<a class="dropdown-item" href="../solutions.html">Solutions Central</a>
+          				<a class="dropdown-item" href="web-design.html">Website Designs</a>
+          				<a class="dropdown-item" href="apps.html">Mobile Apps</a>
+          				<a class="dropdown-item" href="office.html">Office Solutions</a>
+					<a class="dropdown-item" href="comp-train.html">Computer Training</a>
+        			</div>
+
+			 <li class="nav-item dropdown">
+        			<a class="nav-link dropdown-toggle" href="../packages.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          				Packages </a>
+        			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					<a class="dropdown-item" href="../packages">Deals Home</a>
+          				<a class="dropdown-item" href="../packages/start-up.html">New/Start Up Companies</a>
+          				<a class="dropdown-item" href="../packages/web-opt.html">Website Optimization</a>
+          				<a class="dropdown-item" href="../packages/templates.html">Office Template Creation</a>
+					<a class="dropdown-item" href="../packages/ext-train.html">Extended Training</a>
+        			</div>
+
+			 <li class="nav-item dropdown">
+        			<a class="nav-link dropdown-toggle" href="../about.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          				About </a>
+        			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          				<a class="dropdown-item" href="../about.html">Hickory Tech Solutions</a>
+          				<a class="dropdown-item" href="../about/founder.html">Founder</a>
+          				<a class="dropdown-item" href="../about/FAQ.html">FAQ</a>
+        			</div>
+
+			<li class="nav-item dropdown">
+        			<a class="nav-link dropdown-toggle" href="../resources.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          				Resources </a>
+        			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          				<a class="dropdown-item" href="../resources.html">Resources Home</a>
+          				<a class="dropdown-item" href="../resources/web-design.html">Web Design</a>
+          				<a class="dropdown-item" href="../resources/apps">App Creation</a>
+          				<a class="dropdown-item" href="../resources/graphics">Graphic Design</a>
+					<a class="dropdown-item" href="../resources/comp-learn">Computer Training</a>
+        			</div>
+
+			<li class="nav-item">
+			<a class="nav-link" href="../contact.html"> Contact Us <span class="sr-only">(current)</span></a>
+		</li>
+
+    		</ul>
+
+    		<form class="form-inline my-2 my-lg-0">
+      			<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    		</form>
+	
+      <!-- <button class="btn btn-info my-2 my-sm-0" type="submit">My Account</button> -->
+
+	</div>
+</nav>
+
+<!--______________________________________________________________________END NAVIGATION BAR_________________________________________________________________-->
+<!--____________________________________________________________________________BODY_________________________________________________________________________-->
+
+<div class="container text-center">
+
+	<div class="jumbotron">
+		<h1> Mobile Apps </h1>
+
+		<p> Offering both native applications for both Apple and Android, we can provide your business with just a little extra to keep your customers coming back. </p> 		<br>
+
+		<a href="#pricing"> <button class="btn btn-info btn-lg">Skip to Pricing</button> </a>
+</div>
+
+
+
+
+
+<!-- Info Section -->
+
+		<h1 class="text-center"> What you get </h1> <br>
+
+<div class="row">
+		<div class="col-md-4">
+			<h3 class="LableBoxTop"> Native </h3>
+			<p class="LableBoxBottom"> Our applications are specifically built for Android or Apple. This means users can get the most out of their device. </p>
+		</div>
+
+  		<div class="col-md-4">
+
+			<h3 class="LableBoxTop"> Hardware Features</h3>
+			<p class="LableBoxBottom"> Native apps allow your app to access hardware features such as location searches, camera and contacts. </p>
+		</div>
+  		<div class="col-md-4">
+
+			<h3 class="LableBoxTop"> Up to Date </h3>
+			<p class="LableBoxBottom"> Our apps are written in the lastest and most common languages for Android and Apple. </p>
+
+		</div>
+
+	</div>
+
+<!--Info Panel Section -->
+
+
+    	<div class="panel panel-gray text-justify">
+  +    		<div class="panel-gray-heading"> <h2> About App Design</h2></div>
+      		<div class="panel-gray-body">
+			<strong>Why are our prices so cheap?</strong> As a freelance organization, we have little overhead to account for. Hickory Tech Solutions and our partners believe that integrating technology should not cost an arm 			and a leg. <br>
+			<strong> What is iOS, Android, and Apple?</strong> iOS and Apple are synonymous when it comes to mobile apps. "OS" stands for operating system and the 'i' is the traditional symbol for Apple-made mobile products 			(iPhone, iPod, iPad...). Android is the most popular non-Apple operating system. You'll find Android on Samsung phones, LG phones, Motorola and more! <br>
+			<strong> Are there 'not native' apps? </strong> Yes. There are web apps as well. Web apps are similiar in look and feel to native apps, but they operate on a browser (like Safari or Google Chrome) rather than as 				a stand alone, downloadable app. These advantage of this is that you only need one app for all mobile devices. However, you do not have access to hardware features which can reduce the usability and improvement of 			apps. <br>
+			<strong>Why do prices say "starting price"?</strong> Starting prices assume you already have the content typed out, you just need the website built. However, since we offer so many add-on services, it is 					impossible for us to calculate an accurate price range. <br>
+			<strong>I have no idea where to start or what I need.</strong> Not a problem! Simply send us an email or give us a call and we'd be more than happy to walk you through your new app, every step of the way. </p>
+		</div>
+    	</div>
+
+
+
+
+
+<!-- Pricing Section -->
+
+	<div id="pricing" class="container-fluid">
+  		<div class="jumbotron jumbowhite">
+    			<h1>Pricing</h1> <br>
+    			<h4 class="mt-1">Choose an app package that works for you</h4>
+  		</div>
+		
+		<hr>
+
+
+  		<div class="row slideanim">
+    			<div class="col-sm-4 col-xs-12">
+      				<div class="panel panel-default text-center">
+        				<div class="panel-heading">
+          					<h1>Android Only</h1>
+        				</div>
+
+        			<div class="panel-body">
+					<p><strong> Designed for phones and tablets from: </strong><br>				
+						Samsung <br>
+						Google <br>
+						LG <br>
+						Motorola <br>	
+						Pre-Paid Vendors
+					
+					</p>
+					<p><strong>Framework</strong> <br>
+						Written in Java <br>
+						In Android Studio - SDK </p>
+        			</div>
+
+        			<div class="panel-footer">
+          				<h3>$299</h3>
+					<h4> starting price </h4>
+          					<button class="btn btn-lg">Get Started</button>
+        			</div>
+      			</div>      
+    		</div>  
+
+   
+    		<div class="col-sm-4 col-xs-12">
+      			<div class="panel panel-default text-center">
+        			<div class="panel-heading">
+          				<h1>Combo</h1>
+        			</div>
+
+        			<div class="panel-body">
+          				<p><strong> Designed for: </strong> <br>
+						All Android phones and tablets <br>
+						All iOS phones and tablets <br>  
+					</p>
+					<p><strong>Does not include</strong><br>      	
+						Windows Mobile Apps 
+					</p>	
+	
+					<p><strong> Framework </strong> <br>
+						Written in C++
+						In Xcode and
+						In Android Native Kit (ANK)
+					</p>
+
+
+				</div>
+
+        			<div class="panel-footer">
+          				<h3>$399</h3>
+         				<h4>starting price</h4>
+          					<button class="btn btn-lg">Get Started</button>
+        			</div>
+      			</div>      
+    		</div>   
+
+    
+    		<div class="col-sm-4 col-xs-12">
+      			<div class="panel panel-default text-center">
+        			<div class="panel-heading">
+          				<h1>Apple Only</h1>
+        			</div>
+
+        			<div class="panel-body">
+					<p><strong> Designed for: </strong><br>						
+						iPhones* <br>
+						iPads* <br>
+						iPods Touch <br>
+						<p><i> *May not be available for older models </i></p>
+					</p>
+					<p><strong>Framework</strong> <br>
+						Written in Swift<br>
+						In XCode </p>
+        			</div>
+
+        			<div class="panel-footer">
+          				<h3>$299</h3>
+          				<h4>starting price</h4>
+          					<button class="btn btn-lg">Get Started</button>
+        			</div>
+      			</div>      
+    		</div>    
+ 	 </div>
+	</div>
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+<!--______________________________________________________________________END BODY____________________________________________________________________________-->
+<!--______________________________________________________________________ FOOTER_____________________________________________________________________________-->
+	
+
+<div class="mt-5"></div>
+
+<section id="footer">
+		
+	<div class="container">
+			
+		<div class="row text-center text-xs-center text-sm-left text-md-left">
+				
+			<div class="col-xs-12 col-sm-4 col-md-4">
+					
+				<h5>Quick links</h5>
+					
+					<ul class="list-unstyled quick-links">
+						
+						<li><a href="../index.html"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						
+						<li><a href="../solutions.html"><i class="fa fa-angle-double-right"></i>Solutions</a></li>
+						
+						<li><a href="../packages.html"><i class="fa fa-angle-double-right"></i>Packages</a></li>
+						
+						<li><a href="../about.html"><i class="fa fa-angle-double-right"></i>About</a></li>
+	
+													
+					</ul>
+				
+			</div>
+	
+			
+			<div class="col-xs-12 col-sm-4 col-md-4">
+					
+				<h5>Contact Us</h5>
+					
+					<ul class="list-unstyled quick-links">
+						
+						<li><a href="tel:562-370-4395"><i class="fa fa-angle-double-right"></i>Call</a></li>
+						
+						<li><a href="mailto:hickorytechsolutions@gmail.com?Subject=HTS%20Contact"><i class="fa fa-angle-double-right"></i>Email</a></li>
+						
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Facebook</a></li>
+						
+					
+					</ul>
+				
+			</div>
+				
+			<div class="col-xs-12 col-sm-4 col-md-4">
+					
+				<h5>External Resources</h5>
+					
+					<ul class="list-unstyled quick-links">
+						
+						<li><a href="about/FAQ.html;"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+						
+									
+					</ul>
+				
+			</div>
+			
+		</div>
+
+			
+	</div>
+	
+</section>
+	
+
+
+<!-- ./Footer -->
