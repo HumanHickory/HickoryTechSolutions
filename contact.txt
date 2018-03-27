@@ -1,0 +1,291 @@
+<head> 
+	<title> Hickory Tech Solutions </title>
+
+	<script src="HTS BS/vendor/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="HTS BS/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="HTS BS/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="HTS BS/vendor/bootstrap/css/body.css">
+	<link rel="stylesheet" href="HTS BS/vendor/bootstrap/css/headfoot.css">
+	<link rel="stylesheet" href="HTS BS/vendor/bootstrap/css/form.css">
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+		<meta name="author" content="Jordon Meredith">
+		<meta name="keywords" content="Jordon Meredith, Jordon, Meredith, Hickory Web Designs, Web Designs, Hickory Tech Solutions, Hickory Technology Solutions, Technology, Computer help, computer training,Office Training, Del 		Rio, Texas, Southern Texas, Laughlin AFB">
+		<meta name="description" content="Hickory Tech Solutions">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" /> 
+</head>
+
+<body>
+
+<!--__________________________________________________________NAVIGATION___________________________________________________________--->
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  			<a class="navbar-brand" href="index.html"><img src="img/HickoryBlackClear.png" width="80px" height="80px"> </a>
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    				<span class="navbar-toggler-icon"></span>
+  			</button>
+
+  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+     
+    		<ul class="navbar-nav mr-auto">
+
+
+		<li class="nav-item">
+			<a class="nav-link" href="index.html"> Home <span class="sr-only">(current)</span></a>
+		</li>
+
+
+			 <li class="nav-item dropdown">
+        			<a class="nav-link dropdown-toggle" href="solutions.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          				Solutions </a>
+        			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          				<a class="dropdown-item" href="solutions.html">Solutions Central</a>
+          				<a class="dropdown-item" href="solutions/web-design.html">Website Designs</a>
+          				<a class="dropdown-item" href="solutions/apps.html">Mobile Apps</a>
+          				<a class="dropdown-item" href="solutions/office.html">Office Solutions</a>
+					<a class="dropdown-item" href="solutions/comp-train.html">Computer Training</a>
+        			</div>
+
+			 <li class="nav-item dropdown">
+        			<a class="nav-link dropdown-toggle" href="packages.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          				Packages </a>
+        			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          				<a class="dropdown-item" href="packages.html">Deals Home</a>				
+          				<a class="dropdown-item" href="packages/start-up.html">New/Start Up Companies</a>
+          				<a class="dropdown-item" href="packages/web-opt.html">Website Optimization</a>
+          				<a class="dropdown-item" href="packages/templates.html">Office Template Creation</a>
+					<a class="dropdown-item" href="packages/ext-train.html">Extended Training</a>
+        			</div>
+
+			 <li class="nav-item dropdown">
+        			<a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          				About </a>
+        			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          				<a class="dropdown-item" href="about.html">Hickory Tech Solutions</a>
+          				<a class="dropdown-item" href="about/founder.html">Founder</a>
+					<a class="dropdown-item" href="about/FAQ.html">FAQ</a>
+        			</div>
+
+			<li class="nav-item dropdown">
+        			<a class="nav-link dropdown-toggle" href="resources.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          				Resources </a>
+        			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          				<a class="dropdown-item" href="resources.html">Resources Home</a>
+          				<a class="dropdown-item" href="resources/web-design.html">Web Design</a>
+          				<a class="dropdown-item" href="resources/apps">App Creation</a>
+          				<a class="dropdown-item" href="resources/graphics">Graphic Design</a>
+					<a class="dropdown-item" href="resources/comp-learn">Computer Training</a>
+        			</div>
+
+		<li class="nav-item active">
+			<a class="nav-link" href="contact.html"> Contact Us<span class="sr-only">(current)</span></a>
+		</li>
+
+    		</ul>
+
+    		<form class="form-inline my-2 my-lg-0">
+      			<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    		</form>
+	
+      <!-- <button class="btn btn-info my-2 my-sm-0" type="submit">My Account</button> -->
+
+	</div>
+</nav>
+
+<!--______________________________________________________________________END NAVIGATION BAR_________________________________________________________________-->
+<!--____________________________________________________________________________BODY_________________________________________________________________________-->
+
+<div class="jumbotron jumboteal text-center">
+    		<h1>Need To Talk?</h1> 
+		<h3> We're here to help!</h3>
+</div>
+
+
+<!-- OUR INFO DISPLAY -->
+
+	<div class="container">
+  		<div class="row">
+   	 		<div class="span 6">
+      				<img style="float:left" src="img/HickoryClear.png" width="40%"/>
+      				<div class="content-heading"><h1>Our Info </h1></div>
+      				<p> 
+				<strong> Phone Number: </strong> <br>
+					<a href="tel:562-370-4395">(562)-370-4395 </a> <br> <br>
+
+				<strong> Email Address: </strong> <br>
+					<a href="mailto:HickoryTechSolutions@Gmail.com">HickoryTechSolutions@Gmail.com</a> <br> <br>
+			
+				<strong> Facebook: </strong> <br>
+					<a href="https://www.facebook.com/HickoryTechSolutions/" target="_blank"> https://www.facebook.com/HickoryTechSolutions/ </a><br> <br>
+
+				</p>
+   			 </div>
+  		</div>
+</div>
+	<hr>
+
+<!--CONTACT FORM-->
+
+<div class="container">
+	
+	<div class="row">
+			
+		<h1>Don't need an immediate answer?</h1>
+	
+	</div>
+	
+	<div class="row">
+			
+		<h4 style="text-align:center">Fill out the form and we'll respond within 48 hours!</h4>
+	
+	</div>
+	
+	<div class="row input-container">
+			
+		<div class="col-xs-12">
+				
+			<div class="styled-input wide">
+					
+				<input type="text" required />
+					
+				<label>Name</label> 
+				
+			</div>
+			
+		</div>
+			
+		<div class="col-md-6 col-sm-12">
+				
+			<div class="styled-input">
+					
+				<input type="text" required />
+					
+				<label>Email</label> 
+				
+			</div>
+			
+		</div>
+			
+		<div class="col-md-6 col-sm-12">
+				
+			<div class="styled-input" style="float:right;">
+					
+				<input type="text" required />
+					
+				<label>Phone Number</label> 
+				
+			</div>
+			
+		</div>
+			
+		<div class="col-xs-12">
+			
+			<div class="styled-input wide">
+					
+				<textarea required></textarea>
+					
+				<label>Message</label>
+				
+			</div>
+			
+		</div>
+			
+		<div class="col-xs-12">
+	
+
+			
+				<div class="btn-lrg submit-btn">Send Message</div>
+			
+		</div>
+	
+	</div>
+
+</div>
+
+
+
+
+
+
+
+
+</body>
+<!--______________________________________________________________________END BODY____________________________________________________________________________-->
+<!--______________________________________________________________________ FOOTER_____________________________________________________________________________-->
+	
+
+<div class="mt-5"></div>
+
+<section id="footer">
+		
+	<div class="container">
+			
+		<div class="row text-center text-xs-center text-sm-left text-md-left">
+				
+			<div class="col-xs-12 col-sm-4 col-md-4">
+					
+				<h5>Quick links</h5>
+					
+					<ul class="list-unstyled quick-links">
+						
+						<li><a href="index.html"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						
+						<li><a href="solutions.html"><i class="fa fa-angle-double-right"></i>Solutions</a></li>
+						
+						<li><a href="packages.html"><i class="fa fa-angle-double-right"></i>Packages</a></li>
+						
+						<li><a href="about.html"><i class="fa fa-angle-double-right"></i>About</a></li>
+	
+													
+					</ul>
+				
+			</div>
+	
+			
+			<div class="col-xs-12 col-sm-4 col-md-4">
+					
+				<h5>Contact Us</h5>
+					
+					<ul class="list-unstyled quick-links">
+						
+						<li><a href="tel:562-370-4395"><i class="fa fa-angle-double-right"></i>Call</a></li>
+						
+						<li><a href="mailto:hickorytechsolutions@gmail.com?Subject=HTS%20Contact"><i class="fa fa-angle-double-right"></i>Email</a></li>
+						
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Facebook</a></li>
+						
+					
+					</ul>
+				
+			</div>
+				
+			<div class="col-xs-12 col-sm-4 col-md-4">
+					
+				<h5>External Resources</h5>
+					
+					<ul class="list-unstyled quick-links">
+						
+						<li><a href="about/FAQ.html;"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+
+					
+									
+					</ul>
+				
+			</div>
+			
+		</div>
+
+			
+	</div>
+	
+</section>
+	
+
+
+<!-- ./Footer -->
+
+
+
