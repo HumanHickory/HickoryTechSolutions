@@ -1,0 +1,166 @@
+body {
+	background-color: white;
+	font-family: 'Ubuntu';
+	}
+
+/*________________JUMBOTRONS________________*/
+
+.jumbowhite {
+	background-color: inherit;
+	background-image: url("../../../../img/LineBackgroundWide.png");
+	border: 2px solid black;
+	}
+.jumboteal {
+	background-color: RGB(69,200,206);
+	color: white;
+	} 
+
+/*________________BOXES________________*/
+
+.LableBoxTop {
+	background-color: RGB(69,200,206);
+	border: 2px solid RGB(69,200,206);
+	border-radius: 6px 6px 0px 0px;
+	color: white;
+	padding: 4px;
+	margin-bottom: 0px;
+	}
+
+.LableBoxBottom {
+	border: 2px solid RGB(69,200,206);
+	border-radius: 0px 0px 6px 6px;
+	color: black;
+	padding: 4px;
+	height: 5.5em;
+	}
+
+
+/*________________LINKS________________*/
+
+a:link { 
+	color: black;
+	text-decoration: none;
+}
+
+a:visted {
+	color: black;
+	}
+
+a:hover {
+	color: RGB(69,200,209);
+	}
+
+a:active {
+	color: gray;
+	}
+
+/*________________TEXT________________*/
+
+p {
+	color: black !important;
+}
+
+
+/*________________PANEL________________*/
+/*____like the pricing panels and stuff____*/
+
+.panel {
+      	border: 2px solid RGB(69, 200, 206); 
+      	border-radius:6px !important;
+      	transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+      	box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+
+  .panel-heading {
+      	color: #fff !important;
+      	background-color: RGB(69, 200, 206)!important;
+      	padding: 25px;
+      	border-bottom: 1px solid transparent;
+	margin-bottom: 3px;
+  }
+  .panel-footer {
+      	background-color: white !important;
+  }
+  .panel-footer h3 {
+      	font-size: 32px;
+  }
+  .panel-footer h4 {
+      	font-size: 14px;
+  }
+  .panel-footer .btn {
+      	margin: 15px 0;
+      	background-color: RGB(69, 200, 206);
+      	color: #fff;
+  }
+  .panel-footer .btn:hover {
+      	border: 2px solid RGB(69, 200, 206);
+      	background-color: #fff !important;
+      	color: RGB(69, 200, 206);
+  }
+
+
+.panel-body {
+	padding: 3px;
+	}
+
+
+
+/*__Gray Panel__*/
+
+.panel-gray-heading {
+	background-color: silver;
+	color: black !important;
+      	padding: 25px;
+      	border-bottom: 1px solid transparent;
+	margin-bottom: 3px;
+	}
+
+.panel-gray {
+      	border: 2px solid silver; 
+      	border-radius:6px !important;
+      	transition: box-shadow 0.5s;
+	margin-bottom: 10px;
+  }
+
+
+.panel-gray-body {
+	padding: 20px;
+	}
+
+
+/*___Image Panel___*/
+
+.picture {
+	background-image: url("../../../../img/Package.jpg"); 
+	background-size: cover;
+	background-position: center center;
+	}
+
+.picture2 {
+	background-image: url("../../../../img/Mobile.jpeg"); 
+	background-size: cover;
+	background-position: center center;
+	}
+
+.sidebyside {	
+	border-radius: 10px;
+	}
+
+.sidebysidetext {
+	border: 2px solid RGB(69, 200, 206);
+	border-radius: 10px;
+	padding: 10px;
+
+	}
+
+/*________________IMAGE________________*/
+
+img {
+	border-radius: 10px;
+	}
+
+
+
+
