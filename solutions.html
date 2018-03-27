@@ -4,7 +4,8 @@
 	<script src="HTS BS/vendor/jquery/jquery.min.js"></script>
 	<script type="text/javascript" src="HTS BS/vendor/bootstrap/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="HTS BS/vendor/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="HTS BS/vendor/bootstrap/css/HTS.css">
+	<link rel="stylesheet" href="HTS BS/vendor/bootstrap/css/body.css">
+	<link rel="stylesheet" href="HTS BS/vendor/bootstrap/css/headfoot.css">
 	<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -31,15 +32,16 @@
     		<ul class="navbar-nav mr-auto">
 
 
-		<li class="nav-item active">
+		<li class="nav-item">
 			<a class="nav-link" href="index.html"> Home <span class="sr-only">(current)</span></a>
 		</li>
 
 
-			 <li class="nav-item dropdown">
+			 <li class="nav-item dropdown active">
         			<a class="nav-link dropdown-toggle" href="solutions.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           				Solutions </a>
         			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          				<a class="dropdown-item" href="solutions.html">Solutions Central</a>
           				<a class="dropdown-item" href="solutions/web-design.html">Website Designs</a>
           				<a class="dropdown-item" href="solutions/apps.html">Mobile Apps</a>
           				<a class="dropdown-item" href="solutions/office.html">Office Solutions</a>
@@ -50,6 +52,7 @@
         			<a class="nav-link dropdown-toggle" href="packages.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           				Packages </a>
         			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          				<a class="dropdown-item" href="packages.html">Deals Home</a>				
           				<a class="dropdown-item" href="packages/start-up.html">New/Start Up Companies</a>
           				<a class="dropdown-item" href="packages/web-opt.html">Website Optimization</a>
           				<a class="dropdown-item" href="packages/templates.html">Office Template Creation</a>
@@ -62,17 +65,23 @@
         			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           				<a class="dropdown-item" href="about.html">Hickory Tech Solutions</a>
           				<a class="dropdown-item" href="about/founder.html">Founder</a>
+					<a class="dropdown-item" href="about/FAQ.html">FAQ</a>
         			</div>
 
 			<li class="nav-item dropdown">
         			<a class="nav-link dropdown-toggle" href="resources.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           				Resources </a>
         			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          				<a class="dropdown-item" href="resources.html">Resources Home</a>
           				<a class="dropdown-item" href="resources/web-design.html">Web Design</a>
           				<a class="dropdown-item" href="resources/apps">App Creation</a>
           				<a class="dropdown-item" href="resources/graphics">Graphic Design</a>
 					<a class="dropdown-item" href="resources/comp-learn">Computer Training</a>
         			</div>
+
+		<li class="nav-item">
+			<a class="nav-link" href="contact.html"> Contact Us<span class="sr-only">(current)</span></a>
+		</li>
 
     		</ul>
 
@@ -130,38 +139,55 @@
 	
   		<div class="row">
     			<div class="col-sm-4">
+			<a href="solutions/web-design.html">
 				<i class="material-icons" style="font-size:36px;color:RGB(69,200,209)">language</i> <br>
       				<h4>Web Design</h4>
       				<p>We'll design a new way to reach your audience</p>
+			</a>
     			</div>
+
     			<div class="col-sm-4">
+			<a href="solutions/apps.html">
 				<i class="material-icons" style="font-size:36px;color:RGB(69,200,209)">stay_current_portrait</i> <br>
      				<h4>Mobile Apps</h4>
       				<p>Bring your brand to life with a mobile app</p>
+			</a>
     			</div>
+
    			<div class="col-sm-4">
+			<a href="solutions/office.html">
 				<i class="material-icons" style="font-size:36px;color:RGB(69,200,209)">desktop_windows</i> <br>
       				<h4>Office Solutions</h4>
       				<p>Have those time-saving templates you've always wanted</p>
+			</a>
     			</div>
+
   		</div>
 
   					<br><br>
   		<div class="row">
     			<div class="col-sm-4">
+			<a href="solutions/comp-train.html">
 				<i class="material-icons" style="font-size:36px;color:RGB(69,200,209)">headset_mic</i> <br>
       				<h4>Computer Training</h4>
       				<p>Learn those tricky techniques that save you time and energy</p>
+			</a>
     			</div>
+
     			<div class="col-sm-4">
+			<a href="solutions/web-opt.html">
 				<i class="material-icons" style="font-size:36px;color:RGB(69,200,209)">add_to_queue</i> <br>
       				<h4>Web Optimization</h4>
       				<p>Revitalize your pre-existing website</p>
+			</a>
     			</div>
+
     			<div class="col-sm-4">
+			<a href="packages.html">
 				<i class="material-icons" style="font-size:36px;color:RGB(69,200,209)">cake</i> <br>
       				<h4>Packages</h4>
       				<p>Save money on multiple services</p>
+			</a>
     			</div>
   		</div>
 
@@ -201,7 +227,8 @@
 						<li><a href="packages.html"><i class="fa fa-angle-double-right"></i>Packages</a></li>
 						
 						<li><a href="about.html"><i class="fa fa-angle-double-right"></i>About</a></li>
-											
+	
+													
 					</ul>
 				
 			</div>
@@ -230,7 +257,7 @@
 					
 					<ul class="list-unstyled quick-links">
 						
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="about/FAQ.html;"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
 						
 									
 					</ul>
@@ -239,19 +266,7 @@
 			
 		</div>
 
-	
-		<div class="row">
-				
-			<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-					
-				<p>Hickory Tech Solutions</p>
-					
-							
-			</div>
-				
-						
-		</div>	
-		
+			
 	</div>
 	
 </section>
@@ -259,6 +274,4 @@
 
 
 <!-- ./Footer -->
-
-
 
