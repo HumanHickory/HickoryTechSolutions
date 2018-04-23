@@ -195,7 +195,7 @@ body {
 
 .AppHead {
 	background-image: 
-		url("../../../../img/Mobile.jpg");
+		url("../../../../img/mobile.jpg");
 	text-shadow: 2px 2px 10px white;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -218,7 +218,7 @@ body {
 }
 
 .TrainHead {
-	background-image:  url("../../../../img/Train.jpg");
+	background-image:  url("../../../../img/train.jpg");
 	text-shadow: 2px 2px 10px white;
 	background-repeat: no-repeat;
 	background-size: cover;
