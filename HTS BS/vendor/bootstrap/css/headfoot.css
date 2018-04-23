@@ -1,5 +1,5 @@
 body {
-	background-color: white;
+	background-color: White;
 	font-family: 'Ubuntu';
 	}
 
@@ -7,10 +7,11 @@ body {
 
 nav {
      	width: 100%;
-     	background: -webkit-linear-gradient(top, #feffff 0%, #ddf1f9 59%, #45c8ce 100%);
-     	background: -o-linear-gradient(top, #feffff 0%, #ddf1f9 59%, #45c8ce 100%); 
-     	background: linear-gradient(top, #feffff 0%, #ddf1f9 59%, #45c8ce 100%); 
-     	border-radius: 0px 0px 6px 6px !important;
+     	background: -webkit-linear-gradient(top, White 0%, Gainsboro 59%, White 100%);
+     	background: -o-linear-gradient(top, White 0%, Gainsboro 59%, White 100%);
+     	background: linear-gradient(top, White 0%, Gainsboro 59%, White 100%);
+	box-shadow: 2px 3px 10px black;
+     	border-radius: 0px 0px 0px 0px !important;
 	font: ubuntu;
 	font-size: 1.2em;
 	color: black;
@@ -49,6 +50,7 @@ color: yellow;  /*Sets the text hover color on navbar*/
 	opacity: 0;
 
 	border-radius: 10px;
+	box-shadow: 2px 2px 30px black;
 	}
 
 
@@ -73,8 +75,10 @@ section {
 
 #footer {
     
-	background: RGB(69,200,206) !important;
-
+	background:
+		linear-gradient(
+		 	RGB(0, 0, 100), RGB(0, 0, 50)
+			);
 	font-family: 'Ubuntu';
 	}
 
@@ -175,21 +179,6 @@ section {
     margin-bottom: 10px;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
