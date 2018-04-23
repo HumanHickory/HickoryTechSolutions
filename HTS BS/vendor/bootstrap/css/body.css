@@ -1,41 +1,249 @@
 body {
-	background-color: white;
-	font-family: 'Ubuntu';
+	font-family:'Ubuntu';
+	color: black;
+	background-color: RGB(255, 255, 255);
+		
 	}
+		
+.marker {
+	font-family: 'Permanent Marker', cursive !important;
+}
+
+.editor {
+	font-family: 'Limelight', cursive;
+	}
+.racing {
+	font-family: 'Racing Sans One', cursive;
+	}
+
+.FatFace {
+	font-family: 'Abril Fatface', cursive;
+	}
+/*_______________CONTAINER COLORS__________*/
+
+.cBlue {
+	background:
+		linear-gradient(
+		 	RGB(0, 0, 120), RGB(0, 0, 50)
+			);
+	box-shadow: 0px 0px 0px black;
+	color: white !important;
+	padding: 20px 20px 20px 10px;
+	}
+
+.cGray {
+	background:
+		linear-gradient(
+			RGB(245, 245, 246),
+			RGB(221, 223, 227),
+			RGB(245, 245, 246)
+		);
+	padding: 20px 10px 20px 10px;
+	box-shadow: 5px 5px 15px black;
+	}
+
+.cWhite {
+	background-color: rgb(255, 255, 255);
+			
+	padding-top: 20px;
+	padding-bottom: 20px;
+	}
+
+.cbrightWhite {
+	background-color: rgb(255, 255, 255);
+	box-shadow: none !important;
+	}
+
+.cGold {
+	background:
+	linear-gradient(
+			rgb(218, 165, 32), rgb(184, 134, 11));	
+	box-shadow: 2px 5px 10px black;
+	padding: 20px 0px 20px 10px;
+	}
+
+.cNavy {
+	background:
+	linear-gradient(
+			rgb(0, 10, 80), rgb(0, 0, 50));	
+	color: white;
+	box-shadow: 2px 5px 10px black;
+	padding: 20px 20px 20px 10px;
+	
+	}
+
+
+.wrap {
+  	position: absolute;
+	height: 250px;
+	bottom: 25px;
+	left: 40px;
+	right: 40px;
+    	background-color: RGBA(0, 0, 50, .8);
+    	color: white;
+    	padding: 60px 20px 20px 10px;
+}
+
+.btn-container {
+	margin: 30px 0px 20px 0px;
+	border: 2px solid black;
+	box-shadow: 2px 2px 15px gray;
+	padding: 20px 0px 0px 0px;
+}
+	
+/*________________BACKGROUNDS_____________*/
+
+.Technology {
+	background: 
+		linear-gradient(
+			rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)),
+		url("../../../../img/Technology.png");
+	background-repeat: no-repeat;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+	}
+
 
 /*________________JUMBOTRONS________________*/
 
-.jumbowhite {
-	background-color: inherit;
-	background-image: url("../../../../img/LineBackgroundWide.png");
-	border: 2px solid black;
-	}
-.jumboteal {
-	background-color: RGB(69,200,206);
-	color: white;
-	} 
-
-/*________________BOXES________________*/
-
-.LableBoxTop {
-	background-color: RGB(69,200,206);
-	border: 2px solid RGB(69,200,206);
-	border-radius: 6px 6px 0px 0px;
-	color: white;
-	padding: 4px;
-	margin-bottom: 0px;
+.jumbobanner {
+	background:
+		linear-gradient(
+			RGB(220, 220, 220), RGB(150, 150, 150));
+	text-align: center;
+	padding-top: 30px;
 	}
 
-.LableBoxBottom {
-	border: 2px solid RGB(69,200,206);
-	border-radius: 0px 0px 6px 6px;
-	color: black;
-	padding: 4px;
-	height: 5.5em;
+.jumbohead {
+	background: 
+		linear-gradient(
+			RGBA(0, 0, 50, .9), RGBA(0, 0, 100, .9)
+	), 
+		url("../../../../img/backgroundbw.jpeg");
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: white !important;	
 	}
 
+.SolutionsHead {
+	background-image: url("../../../../img/WebRepairSm.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white !important;
+	height: 300px;
+	text-align: center;
+	padding-top: 50px;
+	
+	}
+
+.PackageHead {
+	background-image: url("../../../../img/PackageHeader.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white !important;
+	height: 300px;
+	text-align: center;
+	padding-top: 50px;	
+	}
+
+.ResourcesHead {
+	background-image: url("../../../../img/Doc.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white !important;
+	height: 300px;
+	text-align: center;
+	padding-top: 50px;	
+	}
+
+.AboutHead {
+	background-image: url("../../../../img/Sunshine.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white !important;
+	height: 300px;
+	text-align: center;
+	padding-top: 50px;	
+	}
+
+.ContactHead {
+	background-image: url("../../../../img/Telephone.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white !important;
+	height: 300px;
+	text-align: center;
+	padding-top: 50px;
+	}
+
+.cContact {
+	background-image: url("../../../../img/Connections2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 5px 5px 15px black;
+	}
+.WebDesignHead {
+	text-shadow: 2px 2px 10px white;
+	background-image: url("../../../../img/design.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 50px;
+	height: 300px;
+}
+
+.AppHead {
+	background-image: 
+		url("../../../../img/Mobile.jpg");
+	text-shadow: 2px 2px 10px white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 50px;
+	height: 300px;
+}
+
+.OfficeHead {
+	background:
+		linear-gradient(
+			RGBA(220, 220, 220, .3), RGBA(150, 150, 150, .3)),
+		url("../../../../img/Hangout.png");
+	text-shadow: 2px 2px 10px white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 50px;
+	height: 300px;
+}
+
+.TrainHead {
+	background-image:  url("../../../../img/Train.jpg");
+	text-shadow: 2px 2px 10px white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 50px;
+	height: 300px;}
+
+.OptHead {
+	background: 
+		linear-gradient( 
+			RGBA(255, 255, 255, .3), RGBA(255, 255, 255, .3)),
+		url("../../../../img/SEOlet.jpg");
+	text-shadow: 2px 2px 10px white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 50px;
+	height: 300px;
+}
 
 /*________________LINKS________________*/
+
+a {
+	color: black;
+	}
 
 a:link { 
 	color: black;
@@ -43,11 +251,11 @@ a:link {
 }
 
 a:visted {
-	color: black;
+	color: black !important;
 	}
 
 a:hover {
-	color: RGB(69,200,209);
+	color: RGB(0, 0, 130);
 	}
 
 a:active {
@@ -56,111 +264,345 @@ a:active {
 
 /*________________TEXT________________*/
 
-p {
-	color: black !important;
+.white {color: white;
+	}
+
+.Gold {
+	color: rgb(230, 180, 0);
+	}
+.black {color: black;
+	}
+
+.navyDyn {
+    	text-shadow: 2px 2px 10px black;
+    	color: rgb(0, 0, 50);
+
+	}
+
+.blockquote-footer {
+	color: darkslategray !important;
+	}
+
+.textPop {
+	color: RGB(0, 0, 50) !important;
+	text-shadow: 2px 2px 10px white;
+	font-weight: bold;
+	}
+.important {
+	color: RGB(0, 0, 50) !important;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.i {
+  text-indent: 1.5em;
+}
+
+@media only screen and (max-width: 768px) {
+  .display-2 {
+   font-size: 60px !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .display-2 {
+    font-size: 50px !important;
+  }
+}
+
+td {
+	font-size: 1.6em;
+}
+
+/*_____________Images________________*/
+
+.image-container {
+ 	 height: 500px;
+  	position: relative;
+	box-shadow: 4px 0px 20px black;
+}
+
+.image-container > h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 
-/*________________PANEL________________*/
-/*____like the pricing panels and stuff____*/
+
+.image-container > img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.image-container-flat {
+ 	height: 700px;
+  	position: relative;
+}
+
+.image-container-flat > img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* Basically, it's more square than the others. */
+
+.image-container-box{
+ 	height: 300px;
+  	position: relative;
+}
+
+.image-container-box > img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.image-container-zero{
+ 	height: 400px;
+  	position: relative;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.image-container-zero > img {
+  	width: 100%;
+  	height: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.image-container-zero:hover > img {
+	opacity: 0.3;
+}
+
+.image-container-zero:hover .hovertext {
+	opacity: 1;
+}
+
+.hovertext {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*__Center text in Image __*/
+.in-img-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+/* MEDIA FOR SMALL TABLETS and LARGE PHONES */
+
+
+@media only screen and (max-width: 768px) {
+  .image-container {
+  height: 300px; !important;
+  }
+
+  .image-container-flat {
+  height: 500px; !important;
+}
+}
+/*MEDIA FOR IPHONE X SIZE PHONES*/
+
+@media only screen and (max-width: 375px) {
+  .image-container {
+  height: 300px; !important;
+  }
+
+  .image-container-flat {
+  height: 300px; !important;
+}
+
+}
+
+/* MEDIA FOR IPHONE SE SIZE PHONES */
+@media only screen and (max-width: 320px) {
+  .image-container {
+  height: 300px; !important;
+  }
+
+  .image-container-flat {
+  height: 200px; !important;
+  }
+}
+
+
+/*________________BUTTON________________*/
+
+.btn-navy {
+	background-color: rgb(0, 0, 50);
+	color: white !important;
+	}
+
+.btn-navy:hover,
+.btn-navy:active,
+.btn-navy:focus {
+        border: 2px solid RGB(0, 0, 50);
+      	background-color: #fff !important;
+      	color: RGB(0, 0, 50) !important;
+}
+
+.btn-navy:visited {
+	background-color: rgb(0, 0, 50);
+	color: LightGray;
+	}
+
+.btn-darkest {
+	background-color: rgb(0, 0, 50);
+	box-shadow: 2px 2px 15px black;
+	}
+
+	.btn-darkest:hover,
+	.btn-darkest:active,
+	.btn-darkest:focus {
+        border: 2px solid RGB(0, 0, 50);
+      	background-color: #fff !important;
+      	color: RGB(0, 0, 50) !important;
+	text-shadow: 0px 0px 0px white !important;
+	}
+
+.btn-darker {
+	background-color: rgb(0, 0, 100);
+	box-shadow: 2px 10px 15px black;
+	}
+
+	.btn-darker:hover,
+	.btn-darker:active,
+	.btn-darker:focus {
+        border: 2px solid RGB(0, 0, 100);
+      	background-color: #fff !important;
+      	color: RGB(0, 0, 100) !important;
+	text-shadow: 0px 0px 0px white !important;
+	}
+
+
+
+.btn-lighter {
+	background-color: rgb(0, 0, 200);
+	box-shadow: 2px 10px 15px black;
+	}
+
+
+	.btn-lighter:hover,
+	.btn-lighter:active,
+	.btn-lighter:focus {
+        border: 2px solid RGB(0, 0, 200);
+      	background-color: #fff !important;
+      	color: RGB(0, 0, 200) !important;
+	text-shadow: 0px 0px 0px white !important;
+	}
+
+.btn-lightest {
+	background-color: rgb(40, 40, 255);
+	box-shadow: 2px 10px 15px black;
+	}
+
+
+	.btn-lightest:hover,
+	.btn-lightest:active,
+	.btn-lightest:focus {
+        border: 2px solid RGB(40, 40, 255);
+      	background-color: #fff !important;
+      	color: RGB(40, 40, 255) !important;
+	text-shadow: 0px 0px 0px white !important;
+	}
+
+.btn-xlg {
+	width: 65% !important;
+	radius: 100px;
+	color: white;
+	text-shadow: 2px 2px 15px black;
+	font-size: 25px; !important
+	box-shadow: 2px 10px 15px black;
+	margin: 10px 0px 10px 0px;
+	}
+
+
+/*________________UL and LI________________*/
+
+.larger {
+	font-size: 1.5em;
+	}
+
+/*______________PRICING PANELS______________*/
+
+.panel-heading {
+	background: 
+		linear-gradient(
+			rgb(0, 0, 50), rgb(0, 10, 100));
+	color: white;
+	padding: 20px;
+
+}
 
 .panel {
-      	border: 2px solid RGB(69, 200, 206); 
-      	border-radius:6px !important;
-      	transition: box-shadow 0.5s;
-  }
+	border: 4px solid rgb(0, 0, 50);
+	margin-top: 10px;
+	border-radius: 10px;	
+	padding-bottom: 20px;
+	transition: box-shadow 0.5s;
+	}
+
+.panel-footer {
+	background-color: lightgray;
+}
+
   .panel:hover {
-      	box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+      	box-shadow: 5px 5px 10px rgba(0,0,10, .4);
   }
 
-  .panel-heading {
-      	color: #fff !important;
-      	background-color: RGB(69, 200, 206)!important;
-      	padding: 25px;
-      	border-bottom: 1px solid transparent;
-	margin-bottom: 3px;
-  }
-  .panel-footer {
-      	background-color: white !important;
-  }
-  .panel-footer h3 {
-      	font-size: 32px;
-  }
-  .panel-footer h4 {
-      	font-size: 14px;
-  }
-  .panel-footer .btn {
-      	margin: 15px 0;
-      	background-color: RGB(69, 200, 206);
-      	color: #fff;
-  }
-  .panel-footer .btn:hover {
-      	border: 2px solid RGB(69, 200, 206);
+
+  .panel .btn:hover {
+      	border: 2px solid RGB(0, 0, 50);
       	background-color: #fff !important;
-      	color: RGB(69, 200, 206);
+      	color: RGB(0, 0, 50) !important;
   }
 
 
-.panel-body {
-	padding: 3px;
-	}
+
+.pGold {
+	
+	border: 4px solid rgb(218, 165, 32);
+	margin-top: 10px;
+	border-radius: 10px;	
+	transition: box-shadow 0.5s;
+}
+
+.pGoldBody {
+	padding: 20px 10px 20px 10px;	
+}
 
 
 
-/*__Gray Panel__*/
-
-.panel-gray-heading {
-	background-color: silver;
-	color: black !important;
-      	padding: 25px;
-      	border-bottom: 1px solid transparent;
-	margin-bottom: 3px;
-	}
-
-.panel-gray {
-      	border: 2px solid silver; 
-      	border-radius:6px !important;
-      	transition: box-shadow 0.5s;
-	margin-bottom: 10px;
-  }
 
 
-.panel-gray-body {
-	padding: 20px;
-	}
-
-
-/*___Image Panel___*/
-
-.picture {
-	background-image: url("../../../../img/Package.jpg"); 
-	background-size: cover;
-	background-position: center center;
-	}
-
-.picture2 {
-	background-image: url("../../../../img/Mobile.jpeg"); 
-	background-size: cover;
-	background-position: center center;
-	}
-
-.sidebyside {	
-	border-radius: 10px;
-	}
-
-.sidebysidetext {
-	border: 2px solid RGB(69, 200, 206);
-	border-radius: 10px;
-	padding: 10px;
-
-	}
-
-/*________________IMAGE________________*/
-
-img {
-	border-radius: 10px;
-	}
-
-
-
+hr.slash {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    	border: 0;
+}
 
